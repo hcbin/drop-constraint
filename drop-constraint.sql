@@ -13,3 +13,5 @@ IF @ConstraintName IS NOT NULL
 BEGIN
   EXEC('ALTER TABLE __TableName__ DROP CONSTRAINT ' + @ConstraintName);
 END
+
+-- PS：将__TableName__和__ColumnName__替换你的表名和字段名

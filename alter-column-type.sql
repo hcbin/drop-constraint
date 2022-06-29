@@ -16,3 +16,5 @@ BEGIN
     ALTER TABLE [DBO].[__TableName__] ALTER COLUMN [__ColumnName__] TEXT NULL;
   END;
 END;
+
+-- 将__TableName__和__ColumnName__替换你的表名和字段名
